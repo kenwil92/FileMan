@@ -1,0 +1,2 @@
+Select FNAME from PUBHUB.HUBS
+where FNAME like 'K%';

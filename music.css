@@ -1,0 +1,12 @@
+a:hover{background-color: white; text-decoration: underline;}
+a:visited{color: peru;}
+div{border: width border-style peachpuff;}
+td{background-color: peachpuff;}
+body{background-color: black;}
+.class{color: white;}
+title{font-family: Cursive;}
+p{font-family: Cursive;}
+h2{text-decoration: underline;}
+thead{font-family: sans-serif; text-decoration: underline; }
+tbody{font-style: italic}
+p.class{background-color: grey;  width: 150px;}

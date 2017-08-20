@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <link href="drop.css" rel="stylesheet" type="text/css" />
+            <div class="dropdown">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="dropdown">
+                        <!--<button class="btn btn-default dropdown-toggle type="button" id="drop" data-toggle="dropdown">
+                             Dropdown
+                            <span class="caret"></span>
+                        </button>
+                        <ul class= "dropdown-menu" aria-labelled-by="drop">
+                            <li><a href="#">Some text</a></li>
+                             <li><a href="#">Some text</a></li>
+                              <li><a href="#">Some text</a></li>
+                        </ul> 
+                    -->
+                        <a class="dropdown-toggle" data-toggle="dropdown">My Profile <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Friends</a></li>
+                            <li><a href="#">Photos</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- col is a column and the col can change
+    1-24.. to make inner div the same length as parent then: 
+    <div class="row">
+    <div class="col-lg-12 bg-primary">
+            <p>This is the inner div</p>
+        </div>
+    </div> ....Assuming parent is 6 colunms long!! -->
+    <div class="col-lg-12 bg-success">
+        <p>This is the outter div</p>
+        <div class="col-lg-6 bg-primary">
+            <p>This is the inner div</p>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+
+</html>
